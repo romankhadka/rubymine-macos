@@ -1,9 +1,29 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
+  <action id="BookmarksView.Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="Console.TableResult.DeleteRows" />
+  <action id="DomElementsTreeView.DeleteElement">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift meta back_space" />
+  </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="alt delete" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
@@ -39,8 +59,13 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
     <keyboard-shortcut first-keystroke="shift meta left" />
   </action>
+  <action id="JumpToLastChange" />
   <action id="NavBar-selectHome">
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="UsageView.Exclude">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
   </action>
 </keymap>
