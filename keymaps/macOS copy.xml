@@ -21,8 +21,8 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta back_space" />
   </action>
-  <action id="EditorDeleteToWordEnd">
-    <keyboard-shortcut first-keystroke="alt delete" />
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="alt back_space" />
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorLineEnd">
