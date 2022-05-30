@@ -19,7 +19,7 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="shift meta back_space" />
+    <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="alt back_space" />
@@ -68,6 +68,9 @@
   <action id="NavBar-selectHome">
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="RecentLocations" />
   <action id="SplitHorizontally">
