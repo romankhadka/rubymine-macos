@@ -59,7 +59,11 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
     <keyboard-shortcut first-keystroke="shift meta left" />
   </action>
+  <action id="FindNext" />
   <action id="GotoFile" />
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
   <action id="JumpToLastChange" />
   <action id="NavBar-selectHome">
     <keyboard-shortcut first-keystroke="home" />
