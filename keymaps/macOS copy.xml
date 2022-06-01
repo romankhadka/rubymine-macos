@@ -79,6 +79,9 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
