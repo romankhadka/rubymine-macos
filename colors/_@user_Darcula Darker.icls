@@ -3,7 +3,7 @@
     <property name="created">2022-06-16T13:57:41</property>
     <property name="ide">Ruby</property>
     <property name="ideVersion">2022.1.0.0</property>
-    <property name="modified">2022-06-16T14:10:23</property>
+    <property name="modified">2022-06-27T09:39:37</property>
     <property name="originalScheme">Darcula Darker</property>
   </metaInfo>
   <colors>
@@ -74,7 +74,7 @@
     </option>
     <option name="RUBY_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="cfd2d5" />
+        <option name="FOREGROUND" value="c0c3c6" />
       </value>
     </option>
     <option name="RUBY_KEYWORD">
@@ -84,7 +84,7 @@
     </option>
     <option name="RUBY_PARAMDEF_CALL">
       <value>
-        <option name="FOREGROUND" value="e5ee63" />
+        <option name="FOREGROUND" value="a6af29" />
       </value>
     </option>
     <option name="RUBY_PARAMETER_ID">
@@ -99,7 +99,7 @@
     </option>
     <option name="RUBY_SPECIFIC_CALL">
       <value>
-        <option name="FOREGROUND" value="e5ee63" />
+        <option name="FOREGROUND" value="a6af29" />
       </value>
     </option>
     <option name="TEXT">
