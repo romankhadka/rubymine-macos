@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
       <mapping pattern=".env.template" type="PLAIN_TEXT" />
+      <mapping ext="key" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
