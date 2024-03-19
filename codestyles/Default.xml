@@ -6,7 +6,4 @@
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
-  <codeStyleSettings language="ruby">
-    <option name="ALIGN_GROUP_FIELD_DECLARATIONS" value="true" />
-  </codeStyleSettings>
 </code_scheme>
