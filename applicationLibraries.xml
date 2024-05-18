@@ -1,0 +1,3174 @@
+<application>
+  <component name="libraryTable">
+    <library name="CFPropertyList (v3.0.6, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Christian Kruse&quot;.freeze" />
+            <option name="email" value="cjk@defunct.ch" />
+            <option name="homepage" value="https://github.com/ckruse/CFPropertyList" />
+            <option name="summary" value="Read, write and manipulate both binary and XML property lists as defined by apple" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="rexml" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="CFPropertyList" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/CFPropertyList-3.0.6" />
+        <option name="version" value="3.0.6" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/CFPropertyList-3.0.6/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/CFPropertyList-3.0.6/lib" />
+      </SOURCES>
+    </library>
+    <library name="activesupport (v7.0.5, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;David Heinemeier Hansson&quot;.freeze" />
+            <option name="email" value="david@loudthinking.com" />
+            <option name="homepage" value="https://rubyonrails.org" />
+            <option name="summary" value="A toolkit of support libraries and Ruby core extensions extracted from the Rails framework." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.6" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="i18n" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="tzinfo" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.0.2" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="concurrent-ruby" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="5.1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="minitest" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="activesupport" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/activesupport-7.0.5" />
+        <option name="version" value="7.0.5" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/activesupport-7.0.5/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/activesupport-7.0.5/lib" />
+      </SOURCES>
+    </library>
+    <library name="addressable (v2.8.4, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Bob Aman&quot;.freeze" />
+            <option name="email" value="bob@sporkmonger.com" />
+            <option name="homepage" value="https://github.com/sporkmonger/addressable" />
+            <option name="summary" value="URI Implementation" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="2.0.2" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="6.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="public_suffix" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="addressable" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/addressable-2.8.4" />
+        <option name="version" value="2.8.4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/addressable-2.8.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/addressable-2.8.4/data" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/addressable-2.8.4/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/addressable-2.8.4/tasks" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/addressable-2.8.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/addressable-2.8.4/data" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/addressable-2.8.4/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/addressable-2.8.4/tasks" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/addressable-2.8.4/data" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/addressable-2.8.4/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/addressable-2.8.4/tasks" />
+      </excluded>
+    </library>
+    <library name="algoliasearch (v1.27.5, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Algolia&quot;.freeze" />
+            <option name="email" value="contact@algolia.com" />
+            <option name="homepage" value="https://github.com/algolia/algoliasearch-client-ruby" />
+            <option name="summary" value="A simple Ruby client for the algolia.com REST API" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.5.1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="json" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="2.8" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="2.8.3" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="httpclient" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="algoliasearch" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/algoliasearch-1.27.5" />
+        <option name="version" value="1.27.5" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/algoliasearch-1.27.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/algoliasearch-1.27.5/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/algoliasearch-1.27.5/resources" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/algoliasearch-1.27.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/algoliasearch-1.27.5/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/algoliasearch-1.27.5/resources" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/algoliasearch-1.27.5/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/algoliasearch-1.27.5/resources" />
+      </excluded>
+    </library>
+    <library name="atomos (v0.1.3, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Giddins&quot;.freeze" />
+            <option name="email" value="&quot;segiddins@segiddins.me&quot;.freeze" />
+            <option name="homepage" value="https://github.com/segiddins/atomos" />
+            <option name="summary" value="A simple gem to atomically write files" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="atomos" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/atomos-0.1.3" />
+        <option name="version" value="0.1.3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/atomos-0.1.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/atomos-0.1.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/atomos-0.1.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/atomos-0.1.3/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/atomos-0.1.3/bin" />
+      </excluded>
+    </library>
+    <library name="benchmark (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This benchmark is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="benchmark" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/benchmark" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="bigdecimal (v2.0.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This bigdecimal is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="bigdecimal" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bigdecimal" />
+        <option name="version" value="2.0.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="bundler (v2.1.4, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This bundler is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="bundler" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler" />
+        <option name="version" value="2.1.4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/ui" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/cli" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/plugin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/source" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/vendor" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/fetcher" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/resolver" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/settings" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/installer" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/templates" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/compact_index_client" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/ui" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/cli" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/plugin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/source" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/vendor" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/fetcher" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/resolver" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/settings" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/installer" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/templates" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/compact_index_client" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/ui" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/cli" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/plugin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/source" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/fetcher" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/resolver" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/settings" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/installer" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/templates" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/bundler/compact_index_client" />
+      </excluded>
+    </library>
+    <library name="bundler-unload (v1.0.2, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Michal Papis&quot;.freeze" />
+            <option name="email" value="&quot;mpapis@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/mpapis/bundler-unload" />
+            <option name="summary" value="Allow unloading bundler after Bundler.load" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="bundler-unload" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/bundler-unload-1.0.2" />
+        <option name="version" value="1.0.2" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/bundler-unload-1.0.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/bundler-unload-1.0.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="cgi (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This cgi is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="cgi" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/cgi" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/cgi/session" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/cgi/session" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/cgi/session" />
+      </excluded>
+    </library>
+    <library name="claide (v1.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Eloy Duran&quot;.freeze, &quot;Fabio Pelosin&quot;.freeze" />
+            <option name="email" value="&quot;eloy.de.enige@gmail.com&quot;.freeze, &quot;fabiopelosin@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/CocoaPods/CLAide" />
+            <option name="summary" value="A small command-line interface framework." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="claide" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/claide-1.1.0" />
+        <option name="version" value="1.1.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/claide-1.1.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/claide-1.1.0/.github" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/claide-1.1.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/claide-1.1.0/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/claide-1.1.0/.github" />
+      </excluded>
+    </library>
+    <library name="cocoapods (v1.12.1, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Eloy Duran&quot;.freeze, &quot;Fabio Pelosin&quot;.freeze, &quot;Kyle Fuller&quot;.freeze, &quot;Samuel Giddins&quot;.freeze" />
+            <option name="email" value="&quot;eloy.de.enige@gmail.com&quot;.freeze, &quot;fabiopelosin@gmail.com&quot;.freeze, &quot;kyle@fuller.li&quot;.freeze, &quot;segiddins@segiddins.me&quot;.freeze" />
+            <option name="homepage" value="https://github.com/CocoaPods/CocoaPods" />
+            <option name="summary" value="The Cocoa library package manager." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="=" />
+                    <option name="version" value="1.12.1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="cocoapods-core" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.0.2" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="claide" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.0.3" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="cocoapods-deintegrate" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.6.0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="cocoapods-downloader" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.0.0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="cocoapods-plugins" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.0.0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="cocoapods-search" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.6.0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="cocoapods-trunk" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.1.0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="cocoapods-try" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.8.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="molinillo" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.21.0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="xcodeproj" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="3.1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="colored2" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.0.4" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="escape" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="2.3.0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="3.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="fourflusher" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="gh_inspector" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="nap" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="2.3.0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="3.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="ruby-macho" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="2.8" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="addressable" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="cocoapods" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-1.12.1" />
+        <option name="version" value="1.12.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-1.12.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-1.12.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-1.12.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-1.12.1/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-1.12.1/bin" />
+      </excluded>
+    </library>
+    <library name="cocoapods-core (v1.12.1, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Eloy Duran&quot;.freeze, &quot;Fabio Pelosin&quot;.freeze" />
+            <option name="email" value="&quot;eloy.de.enige@gmail.com&quot;.freeze, &quot;fabiopelosin@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/CocoaPods/CocoaPods" />
+            <option name="summary" value="The models of CocoaPods" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="5.0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="8" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="activesupport" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="nap" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="2.0.4" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="fuzzy_match" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="algoliasearch" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="concurrent-ruby" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="typhoeus" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.11" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="netrc" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="2.8" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="addressable" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="4.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="public_suffix" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="cocoapods-core" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-core-1.12.1" />
+        <option name="version" value="1.12.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-core-1.12.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-core-1.12.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="cocoapods-deintegrate (v1.0.5, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Kyle Fuller&quot;.freeze" />
+            <option name="email" value="&quot;kyle@fuller.li&quot;.freeze" />
+            <option name="homepage" value="https://github.com/kylef/cocoapods-deintegrate" />
+            <option name="summary" value="A CocoaPods plugin to remove and de-integrate CocoaPods from your project." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="cocoapods-deintegrate" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-deintegrate-1.0.5" />
+        <option name="version" value="1.0.5" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-deintegrate-1.0.5/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-deintegrate-1.0.5/lib" />
+      </SOURCES>
+    </library>
+    <library name="cocoapods-downloader (v1.6.3, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Eloy Duran&quot;.freeze, &quot;Fabio Pelosin&quot;.freeze" />
+            <option name="email" value="&quot;eloy.de.enige@gmail.com&quot;.freeze, &quot;fabiopelosin@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/CocoaPods/cocoapods-downloader" />
+            <option name="summary" value="A small library for downloading files from remotes in a folder." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="cocoapods-downloader" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-downloader-1.6.3" />
+        <option name="version" value="1.6.3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-downloader-1.6.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-downloader-1.6.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="cocoapods-plugins (v1.0.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;David Grandinetti&quot;.freeze, &quot;Olivier Halligon&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/cocoapods/cocoapods-plugins" />
+            <option name="summary" value="CocoaPods plugin which shows info about available CocoaPods plugins." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="nap" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="cocoapods-plugins" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-plugins-1.0.0" />
+        <option name="version" value="1.0.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-plugins-1.0.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-plugins-1.0.0/spec" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-plugins-1.0.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-plugins-1.0.0/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-plugins-1.0.0/spec" />
+      </excluded>
+    </library>
+    <library name="cocoapods-search (v1.0.1, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Eloy Dur\u00E1n&quot;.freeze, &quot;Fabio Pelosin&quot;.freeze, &quot;Emma Koszinowski&quot;.freeze" />
+            <option name="email" value="&quot;eloy.de.enige@gmail.com&quot;.freeze, &quot;fabiopelosin@gmail.com&quot;.freeze, &quot;emkosz@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/CocoaPods/cocoapods-search" />
+            <option name="summary" value="Searches for pods, ignoring case, whose name matches `QUERY`. If the `--full` option is specified, this will also search in the summary and description of the pods." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="cocoapods-search" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-search-1.0.1" />
+        <option name="version" value="1.0.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-search-1.0.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-search-1.0.1/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-search-1.0.1/.github" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-search-1.0.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-search-1.0.1/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-search-1.0.1/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-search-1.0.1/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-search-1.0.1/.github" />
+      </excluded>
+    </library>
+    <library name="cocoapods-trunk (v1.6.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Eloy Dur\u00E1n&quot;.freeze" />
+            <option name="email" value="&quot;eloy.de.enige@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/CocoaPods/cocoapods-trunk" />
+            <option name="summary" value="Interact with trunk.cocoapods.org" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0.8" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="nap" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.11" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="netrc" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="cocoapods-trunk" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-trunk-1.6.0" />
+        <option name="version" value="1.6.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-trunk-1.6.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-trunk-1.6.0/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-trunk-1.6.0/.github" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-trunk-1.6.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-trunk-1.6.0/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-trunk-1.6.0/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-trunk-1.6.0/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-trunk-1.6.0/.github" />
+      </excluded>
+    </library>
+    <library name="cocoapods-try (v1.2.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Fabio Pelosin&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/cocoapods/cocoapods-try" />
+            <option name="summary" value="CocoaPods plugin which allows to quickly try the demo project of a Pod." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="cocoapods-try" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-try-1.2.0" />
+        <option name="version" value="1.2.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-try-1.2.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-try-1.2.0/spec" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-try-1.2.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-try-1.2.0/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/cocoapods-try-1.2.0/spec" />
+      </excluded>
+    </library>
+    <library name="colored2 (v3.1.2, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Chris Wanstrath&quot;.freeze, &quot;Konstantin Gredeskoul&quot;.freeze" />
+            <option name="email" value="kigster@gmail.com" />
+            <option name="homepage" value="http://github.com/kigster/colored2" />
+            <option name="summary" value="Add even more color to your life." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="colored2" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/colored2-3.1.2" />
+        <option name="version" value="3.1.2" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/colored2-3.1.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/colored2-3.1.2/spec" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/colored2-3.1.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/colored2-3.1.2/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/colored2-3.1.2/spec" />
+      </excluded>
+    </library>
+    <library name="concurrent-ruby (v1.2.2, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Jerry D'Antonio&quot;.freeze, &quot;Petr Chalupa&quot;.freeze, &quot;The Ruby Concurrency Team&quot;.freeze" />
+            <option name="email" value="concurrent-ruby@googlegroups.com" />
+            <option name="homepage" value="http://www.concurrent-ruby.com" />
+            <option name="summary" value="Modern concurrency tools for Ruby. Inspired by Erlang, Clojure, Scala, Haskell, F#, C#, Java, and classic concurrency patterns." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="concurrent-ruby" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib/concurrent-ruby" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.2.2" />
+        <option name="version" value="1.2.2" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.2.2/ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.2.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.2.2/ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.2.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.2.2/ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.2.2/lib" />
+      </excluded>
+    </library>
+    <library name="csv (v3.1.2, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This csv is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="csv" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/csv" />
+        <option name="version" value="3.1.2" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/csv/core_ext" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/csv/core_ext" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/csv/core_ext" />
+      </excluded>
+    </library>
+    <library name="delegate (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This delegate is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="delegate" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/delegate" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="did_you_mean (v1.4.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This did_you_mean is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="did_you_mean" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean" />
+        <option name="version" value="1.4.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean/core_ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean/formatters" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean/experimental" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean/spell_checkers" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean/core_ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean/formatters" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean/experimental" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean/spell_checkers" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean/core_ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean/formatters" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean/experimental" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/did_you_mean/spell_checkers" />
+      </excluded>
+    </library>
+    <library name="escape (v0.0.4, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Tanaka Akira&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="http://www.a-k-r.org/escape/" />
+            <option name="summary" value="..." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="escape" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/escape-0.0.4" />
+        <option name="version" value="0.0.4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/escape-0.0.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/escape-0.0.4/doc_include" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/escape-0.0.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/escape-0.0.4/doc_include" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/escape-0.0.4/doc_include" />
+      </excluded>
+    </library>
+    <library name="ethon (v0.16.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Hans Hasselberg&quot;.freeze" />
+            <option name="email" value="&quot;me@hans.io&quot;.freeze" />
+            <option name="homepage" value="https://github.com/typhoeus/ethon" />
+            <option name="summary" value="Libcurl wrapper." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.15.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="ffi" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="ethon" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ethon-0.16.0" />
+        <option name="version" value="0.16.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ethon-0.16.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ethon-0.16.0/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ethon-0.16.0/.github" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ethon-0.16.0/profile" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ethon-0.16.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ethon-0.16.0/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ethon-0.16.0/.github" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ethon-0.16.0/profile" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ethon-0.16.0/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ethon-0.16.0/.github" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ethon-0.16.0/profile" />
+      </excluded>
+    </library>
+    <library name="executable-hooks (v1.6.1, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Michal Papis&quot;.freeze" />
+            <option name="email" value="&quot;mpapis@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/rvm/executable-hooks" />
+            <option name="summary" value="Hook into rubygems executables allowing extra actions to be taken before executable is run." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="executable-hooks" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1" />
+        <option name="version" value="1.6.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/test-tf" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/test-tf-bundle" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/test-tf-truffleruby" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/test-tf" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/test-tf-bundle" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/test-tf-truffleruby" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/test-tf" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/test-tf-bundle" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/executable-hooks-1.6.1/test-tf-truffleruby" />
+      </excluded>
+    </library>
+    <library name="ffi (v1.15.5, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Wayne Meissner&quot;.freeze" />
+            <option name="email" value="wmeissner@gmail.com" />
+            <option name="homepage" value="https://github.com/ffi/ffi/wiki" />
+            <option name="summary" value="Ruby FFI" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="ffi" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ffi-1.15.5" />
+        <option name="version" value="1.15.5" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ffi-1.15.5/ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ffi-1.15.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ffi-1.15.5/rakelib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ffi-1.15.5/samples" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ffi-1.15.5/ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ffi-1.15.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ffi-1.15.5/rakelib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ffi-1.15.5/samples" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ffi-1.15.5/ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ffi-1.15.5/rakelib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ffi-1.15.5/samples" />
+      </excluded>
+    </library>
+    <library name="fiddle (v1.0.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This fiddle is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="fiddle" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/fiddle" />
+        <option name="version" value="1.0.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="forwardable (v1.3.1, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This forwardable is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="forwardable" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/forwardable" />
+        <option name="version" value="1.3.1" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="fourflusher (v2.3.1, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Boris Bu\u0308gling&quot;.freeze" />
+            <option name="email" value="&quot;boris@icculus.org&quot;.freeze" />
+            <option name="homepage" value="https://github.com/neonichu/fourflusher" />
+            <option name="summary" value="A library for interacting with Xcode simulators." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="fourflusher" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fourflusher-2.3.1" />
+        <option name="version" value="2.3.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fourflusher-2.3.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fourflusher-2.3.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fourflusher-2.3.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fourflusher-2.3.1/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fourflusher-2.3.1/bin" />
+      </excluded>
+    </library>
+    <library name="fuzzy_match (v2.0.4, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Seamus Abshere&quot;.freeze" />
+            <option name="email" value="&quot;seamus@abshere.net&quot;.freeze" />
+            <option name="homepage" value="https://github.com/seamusabshere/fuzzy_match" />
+            <option name="summary" value="Find a needle in a haystack using string similarity and (optionally) regexp rules. Replaces loose_tight_dictionary." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="fuzzy_match" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fuzzy_match-2.0.4" />
+        <option name="version" value="2.0.4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fuzzy_match-2.0.4/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fuzzy_match-2.0.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fuzzy_match-2.0.4/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fuzzy_match-2.0.4/benchmark" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fuzzy_match-2.0.4/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fuzzy_match-2.0.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fuzzy_match-2.0.4/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fuzzy_match-2.0.4/benchmark" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fuzzy_match-2.0.4/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fuzzy_match-2.0.4/spec" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/fuzzy_match-2.0.4/benchmark" />
+      </excluded>
+    </library>
+    <library name="gem-wrappers (v1.4.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Michal Papis&quot;.freeze" />
+            <option name="email" value="&quot;mpapis@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/rvm/gem-wrappers" />
+            <option name="summary" value="Create gem wrappers for easy use of gems in cron and other system locations." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="gem-wrappers" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0" />
+        <option name="version" value="1.4.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0/ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0/test" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0/ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0/ext" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0/test" />
+      </excluded>
+    </library>
+    <library name="getoptlong (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This getoptlong is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="getoptlong" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/getoptlong" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="gh_inspector (v1.1.3, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Orta Therox&quot;.freeze, &quot;Felix Krause&quot;.freeze" />
+            <option name="email" value="&quot;orta.therox@gmail.com&quot;.freeze, &quot;gh_inspector@krausefx.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/orta/gh_inspector" />
+            <option name="summary" value="Search through GitHub issues for your project for existing issues about a Ruby Error." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="gh_inspector" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gh_inspector-1.1.3" />
+        <option name="version" value="1.1.3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gh_inspector-1.1.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gh_inspector-1.1.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gh_inspector-1.1.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gh_inspector-1.1.3/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/gh_inspector-1.1.3/bin" />
+      </excluded>
+    </library>
+    <library name="httpclient (v2.8.3, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Hiroshi Nakamura&quot;.freeze" />
+            <option name="email" value="nahi@ruby-lang.org" />
+            <option name="homepage" value="https://github.com/nahi/httpclient" />
+            <option name="summary" value="gives something like the functionality of libwww-perl (LWP) in Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="httpclient" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/httpclient-2.8.3" />
+        <option name="version" value="2.8.3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/httpclient-2.8.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/httpclient-2.8.3/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/httpclient-2.8.3/test" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/httpclient-2.8.3/sample" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/httpclient-2.8.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/httpclient-2.8.3/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/httpclient-2.8.3/test" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/httpclient-2.8.3/sample" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/httpclient-2.8.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/httpclient-2.8.3/test" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/httpclient-2.8.3/sample" />
+      </excluded>
+    </library>
+    <library name="i18n (v1.14.1, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Sven Fuchs&quot;.freeze, &quot;Joshua Harvey&quot;.freeze, &quot;Matt Aimonetti&quot;.freeze, &quot;Stephan Soller&quot;.freeze, &quot;Saimon Moore&quot;.freeze, &quot;Ryan Bigg&quot;.freeze" />
+            <option name="email" value="rails-i18n@googlegroups.com" />
+            <option name="homepage" value="https://github.com/ruby-i18n/i18n" />
+            <option name="summary" value="New wave Internationalization support for Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="concurrent-ruby" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="i18n" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/i18n-1.14.1" />
+        <option name="version" value="1.14.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/i18n-1.14.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/i18n-1.14.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="io-console (v0.5.6, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This io-console is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="io-console" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/io/console" />
+        <option name="version" value="0.5.6" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="irb (v1.2.6, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This irb is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="irb" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/irb" />
+        <option name="version" value="1.2.6" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/irb/lc" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/irb/cmd" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/irb/ext" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/irb/lc" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/irb/cmd" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/irb/ext" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/irb/lc" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/irb/cmd" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/irb/ext" />
+      </excluded>
+    </library>
+    <library name="json (v2.3.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This json is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="json" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/json" />
+        <option name="version" value="2.3.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/json/add" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/json/add" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/json/add" />
+      </excluded>
+    </library>
+    <library name="logger (v1.4.2, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This logger is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="logger" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/logger" />
+        <option name="version" value="1.4.2" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="matrix (v0.2.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This matrix is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="matrix" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/matrix" />
+        <option name="version" value="0.2.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="minitest (v5.13.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Ryan Davis&quot;.freeze" />
+            <option name="email" value="&quot;ryand-ruby@zenspider.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/seattlerb/minitest" />
+            <option name="summary" value="minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="minitest" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/minitest-5.13.0" />
+        <option name="version" value="5.13.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/minitest-5.13.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/minitest-5.13.0/test" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/minitest-5.13.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/minitest-5.13.0/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/minitest-5.13.0/test" />
+      </excluded>
+    </library>
+    <library name="molinillo (v0.8.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel E. Giddins&quot;.freeze" />
+            <option name="email" value="&quot;segiddins@segiddins.me&quot;.freeze" />
+            <option name="homepage" value="https://github.com/CocoaPods/Molinillo" />
+            <option name="summary" value="Provides support for dependency resolution" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="molinillo" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/molinillo-0.8.0" />
+        <option name="version" value="0.8.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/molinillo-0.8.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/molinillo-0.8.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="nanaimo (v0.3.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Danielle Tomlinson&quot;.freeze, &quot;Samuel Giddins&quot;.freeze" />
+            <option name="email" value="&quot;dan@tomlinson.io&quot;.freeze, &quot;segiddins@segiddins.me&quot;.freeze" />
+            <option name="homepage" value="https://github.com/CocoaPods/Nanaimo" />
+            <option name="summary" value="A library for (de)serialization of ASCII Plists." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="nanaimo" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/nanaimo-0.3.0" />
+        <option name="version" value="0.3.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/nanaimo-0.3.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/nanaimo-0.3.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/nanaimo-0.3.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/nanaimo-0.3.0/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/nanaimo-0.3.0/bin" />
+      </excluded>
+    </library>
+    <library name="nap (v1.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Manfred Stienstra&quot;.freeze" />
+            <option name="email" value="manfred@fngtps.com" />
+            <option name="homepage" value="https://github.com/Fingertips/nap" />
+            <option name="summary" value="Nap is a really simple REST library." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="nap" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/nap-1.1.0" />
+        <option name="version" value="1.1.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/nap-1.1.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/nap-1.1.0/support" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/nap-1.1.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/nap-1.1.0/support" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/nap-1.1.0/support" />
+      </excluded>
+    </library>
+    <library name="net-pop (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This net-pop is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="net-pop" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/net/pop" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="net-smtp (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This net-smtp is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="net-smtp" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/net/smtp" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="net-telnet (v0.2.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;SHIBATA Hiroshi&quot;.freeze" />
+            <option name="email" value="&quot;hsbt@ruby-lang.org&quot;.freeze" />
+            <option name="homepage" value="https://github.com/ruby/net-telnet" />
+            <option name="summary" value="Provides telnet client functionality." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="net-telnet" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/net-telnet-0.2.0" />
+        <option name="version" value="0.2.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/net-telnet-0.2.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/net-telnet-0.2.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/net-telnet-0.2.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/net-telnet-0.2.0/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/net-telnet-0.2.0/bin" />
+      </excluded>
+    </library>
+    <library name="netrc (v0.11.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Keith Rarick&quot;.freeze, &quot;geemus (Wesley Beary)&quot;.freeze" />
+            <option name="email" value="geemus@gmail.com" />
+            <option name="homepage" value="https://github.com/geemus/netrc" />
+            <option name="summary" value="Library to read and write netrc files." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="netrc" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/netrc-0.11.0" />
+        <option name="version" value="0.11.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/netrc-0.11.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/netrc-0.11.0/data" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/netrc-0.11.0/test" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/netrc-0.11.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/netrc-0.11.0/data" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/netrc-0.11.0/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/netrc-0.11.0/data" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/netrc-0.11.0/test" />
+      </excluded>
+    </library>
+    <library name="observer (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This observer is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="observer" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/observer" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="open3 (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This open3 is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="open3" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/open3" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="openssl (v2.1.2, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This openssl is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="openssl" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/openssl" />
+        <option name="version" value="2.1.2" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="ostruct (v0.2.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This ostruct is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="ostruct" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/ostruct" />
+        <option name="version" value="0.2.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="power_assert (v1.1.7, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Kazuki Tsujimoto&quot;.freeze" />
+            <option name="email" value="&quot;kazuki@callcc.net&quot;.freeze" />
+            <option name="homepage" value="https://github.com/k-tsj/power_assert" />
+            <option name="summary" value="Power Assert for Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="power_assert" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/power_assert-1.1.7" />
+        <option name="version" value="1.1.7" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/power_assert-1.1.7/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/power_assert-1.1.7/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/power_assert-1.1.7/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/power_assert-1.1.7/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/power_assert-1.1.7/bin" />
+      </excluded>
+    </library>
+    <library name="pstore (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This pstore is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="pstore" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/pstore" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="psych (v3.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This psych is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="psych" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych" />
+        <option name="version" value="3.1.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych/json" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych/nodes" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych/handlers" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych/visitors" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych/json" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych/nodes" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych/handlers" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych/visitors" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych/json" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych/nodes" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych/handlers" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych/visitors" />
+      </excluded>
+    </library>
+    <library name="public_suffix (v4.0.7, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Simone Carletti&quot;.freeze" />
+            <option name="email" value="&quot;weppos@weppos.net&quot;.freeze" />
+            <option name="homepage" value="https://simonecarletti.com/code/publicsuffix-ruby" />
+            <option name="summary" value="Domain name parser based on the Public Suffix List." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="public_suffix" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7" />
+        <option name="version" value="4.0.7" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/data" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/test" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/.github" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/data" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/test" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/data" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/test" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/public_suffix-4.0.7/.github" />
+      </excluded>
+    </library>
+    <library name="racc (v1.4.16, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This racc is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="racc" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/racc" />
+        <option name="version" value="1.4.16" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="rake (v13.0.1, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Hiroshi SHIBATA&quot;.freeze, &quot;Eric Hodel&quot;.freeze, &quot;Jim Weirich&quot;.freeze" />
+            <option name="email" value="&quot;hsbt@ruby-lang.org&quot;.freeze, &quot;drbrain@segment7.net&quot;.freeze, &quot;&quot;.freeze" />
+            <option name="homepage" value="https://github.com/ruby/rake" />
+            <option name="summary" value="Rake is a Make-like program implemented in Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="rake" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1" />
+        <option name="version" value="13.0.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/doc" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/exe" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/.github" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/doc" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/exe" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/doc" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/exe" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rake-13.0.1/.github" />
+      </excluded>
+    </library>
+    <library name="rdoc (v6.2.1, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This rdoc is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="rdoc" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc" />
+        <option name="version" value="6.2.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/rd" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/ri" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/i18n" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/stats" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/markup" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/parser" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/context" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/markdown" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/generator" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/rd" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/ri" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/i18n" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/stats" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/markup" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/parser" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/context" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/markdown" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/generator" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/rd" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/ri" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/i18n" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/stats" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/markup" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/parser" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/context" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/markdown" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rdoc/generator" />
+      </excluded>
+    </library>
+    <library name="reline (v0.1.5, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This reline is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="reline" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/reline" />
+        <option name="version" value="0.1.5" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/reline/unicode" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/reline/key_actor" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/reline/unicode" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/reline/key_actor" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/reline/unicode" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/reline/key_actor" />
+      </excluded>
+    </library>
+    <library name="rexml (v3.2.3, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This rexml is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="rexml" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml" />
+        <option name="version" value="3.2.3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/dtd" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/light" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/parsers" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/formatters" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/validation" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/dtd" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/light" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/parsers" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/formatters" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/validation" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/dtd" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/light" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/parsers" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/formatters" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rexml/validation" />
+      </excluded>
+    </library>
+    <library name="rexml (v3.2.5, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Kouhei Sutou&quot;.freeze" />
+            <option name="email" value="&quot;kou@cozmixng.org&quot;.freeze" />
+            <option name="homepage" value="https://github.com/ruby/rexml" />
+            <option name="summary" value="An XML toolkit for Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="rexml" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rexml-3.2.5" />
+        <option name="version" value="3.2.5" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rexml-3.2.5/doc" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rexml-3.2.5/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rexml-3.2.5/doc" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rexml-3.2.5/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rexml-3.2.5/doc" />
+      </excluded>
+    </library>
+    <library name="rss (v0.2.8, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This rss is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="rss" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rss" />
+        <option name="version" value="0.2.8" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rss/maker" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rss/content" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rss/dublincore" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rss/maker" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rss/content" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rss/dublincore" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rss/maker" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rss/content" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/rss/dublincore" />
+      </excluded>
+    </library>
+    <library name="ruby-macho (v2.5.1, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;William Woodruff&quot;.freeze" />
+            <option name="email" value="william@yossarian.net" />
+            <option name="homepage" value="https://github.com/Homebrew/ruby-macho" />
+            <option name="summary" value="ruby-macho - Mach-O file analyzer." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="ruby-macho" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ruby-macho-2.5.1" />
+        <option name="version" value="2.5.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ruby-macho-2.5.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ruby-macho-2.5.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="rubygems-bundler (v1.4.5, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Josh Hull&quot;.freeze, &quot;Michal Papis&quot;.freeze" />
+            <option name="email" value="&quot;joshbuddy@gmail.com&quot;.freeze, &quot;mpapis@gmail.com&quot;.freeze" />
+            <option name="homepage" value="http://mpapis.github.com/rubygems-bundler" />
+            <option name="summary" value="Stop using bundle exec" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.0.2" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="bundler-unload" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.5.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="executable-hooks" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="rubygems-bundler" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rubygems-bundler-1.4.5" />
+        <option name="version" value="1.4.5" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rubygems-bundler-1.4.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rubygems-bundler-1.4.5/test" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rubygems-bundler-1.4.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rubygems-bundler-1.4.5/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rubygems-bundler-1.4.5/test" />
+      </excluded>
+    </library>
+    <library name="rvm (v1.11.3.9, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Wayne E. Seguin&quot;.freeze, &quot;Michal Papis&quot;.freeze" />
+            <option name="email" value="&quot;wayneeseguin@gmail.com&quot;.freeze, &quot;mpapis@gmail.com&quot;.freeze" />
+            <option name="homepage" value="http://rvm.io/" />
+            <option name="summary" value="RVM Ruby Gem Library" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="rvm" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rvm-1.11.3.9" />
+        <option name="version" value="1.11.3.9" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rvm-1.11.3.9/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/rvm-1.11.3.9/lib" />
+      </SOURCES>
+    </library>
+    <library name="singleton (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This singleton is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="singleton" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/singleton" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="test-unit (v3.3.4, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Kouhei Sutou&quot;.freeze, &quot;Haruka Yoshihara&quot;.freeze" />
+            <option name="email" value="&quot;kou@cozmixng.org&quot;.freeze, &quot;yoshihara@clear-code.com&quot;.freeze" />
+            <option name="homepage" value="http://test-unit.github.io/" />
+            <option name="summary" value="An xUnit family unit testing framework for Ruby." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="power_assert" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="test-unit" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-unit-3.3.4" />
+        <option name="version" value="3.3.4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-unit-3.3.4/doc" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-unit-3.3.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-unit-3.3.4/test" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-unit-3.3.4/sample" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-unit-3.3.4/doc" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-unit-3.3.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-unit-3.3.4/test" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-unit-3.3.4/sample" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-unit-3.3.4/doc" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-unit-3.3.4/test" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-unit-3.3.4/sample" />
+      </excluded>
+    </library>
+    <library name="timeout (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This timeout is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="timeout" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/timeout" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="tracer (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This tracer is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="tracer" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/tracer" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="typhoeus (v1.4.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;David Balatero&quot;.freeze, &quot;Paul Dix&quot;.freeze, &quot;Hans Hasselberg&quot;.freeze" />
+            <option name="email" value="&quot;hans.hasselberg@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/typhoeus/typhoeus" />
+            <option name="summary" value="Parallel HTTP library on top of libcurl multi." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0.9.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="ethon" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="typhoeus" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/typhoeus-1.4.0" />
+        <option name="version" value="1.4.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/typhoeus-1.4.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/typhoeus-1.4.0/perf" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/typhoeus-1.4.0/spec" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/typhoeus-1.4.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/typhoeus-1.4.0/perf" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/typhoeus-1.4.0/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/typhoeus-1.4.0/perf" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/typhoeus-1.4.0/spec" />
+      </excluded>
+    </library>
+    <library name="tzinfo (v2.0.6, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Philip Ross&quot;.freeze" />
+            <option name="email" value="phil.ross@gmail.com" />
+            <option name="homepage" value="https://tzinfo.github.io" />
+            <option name="summary" value="Time Zone Library" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="concurrent-ruby" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="tzinfo" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/tzinfo-2.0.6" />
+        <option name="version" value="2.0.6" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/tzinfo-2.0.6/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/tzinfo-2.0.6/lib" />
+      </SOURCES>
+    </library>
+    <library name="uri (v0.10.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This uri is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="uri" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/uri" />
+        <option name="version" value="0.10.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="webrick (v1.6.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This webrick is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="webrick" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/webrick" />
+        <option name="version" value="1.6.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/webrick/httpauth" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/webrick/httpservlet" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/webrick/httpauth" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/webrick/httpservlet" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/webrick/httpauth" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/webrick/httpservlet" />
+      </excluded>
+    </library>
+    <library name="xcodeproj (v1.22.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Eloy Duran&quot;.freeze" />
+            <option name="email" value="eloy.de.enige@gmail.com" />
+            <option name="homepage" value="https://github.com/cocoapods/xcodeproj" />
+            <option name="summary" value="Create and modify Xcode projects from Ruby." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.1.3" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="atomos" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="2.3.3" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="4.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="CFPropertyList" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.0.2" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="claide" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="3.1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="colored2" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.3.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="nanaimo" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="3.2.4" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="rexml" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="xcodeproj" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/xcodeproj-1.22.0" />
+        <option name="version" value="1.22.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/xcodeproj-1.22.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/xcodeproj-1.22.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/xcodeproj-1.22.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/xcodeproj-1.22.0/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/xcodeproj-1.22.0/bin" />
+      </excluded>
+    </library>
+    <library name="xmlrpc (v0.3.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;SHIBATA Hiroshi&quot;.freeze" />
+            <option name="email" value="&quot;hsbt@ruby-lang.org&quot;.freeze" />
+            <option name="homepage" value="https://github.com/ruby/xmlrpc" />
+            <option name="summary" value="XMLRPC is a lightweight protocol that enables remote procedure calls over HTTP." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="xmlrpc" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/xmlrpc-0.3.0" />
+        <option name="version" value="0.3.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/xmlrpc-0.3.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/xmlrpc-0.3.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/xmlrpc-0.3.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/xmlrpc-0.3.0/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/xmlrpc-0.3.0/bin" />
+      </excluded>
+    </library>
+    <library name="yaml (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="N/A" />
+            <option name="summary" value="This yaml is bundled with Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="yaml" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/yaml" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</application>
