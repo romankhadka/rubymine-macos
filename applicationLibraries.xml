@@ -17469,6 +17469,38 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/bundler-2.4.22/exe" />
       </excluded>
     </library>
+    <library name="bundler (v2.5.10, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="André Arko, Samuel Giddins, Colby Swandale, Hiroshi Shibata, David Rodríguez, Grey Baker, Stephanie Morillo, Chris Morris, James Wen, Tim Moore, André Medeiros, Jessica Lynn Suttles, Terence Lee, Carl Lerche, Yehuda Katz" />
+            <option name="email" value="team@bundler.io" />
+            <option name="homepage" value="https://bundler.io" />
+            <option name="summary" value="The best way to manage your application's dependencies" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="bundler" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/bundler" />
+        <option name="version" value="2.5.10" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/bundler/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/bundler/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/bundler/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/bundler/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/bundler/exe" />
+      </excluded>
+    </library>
     <library name="bundler-unload (v1.0.2, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -63810,6 +63842,44 @@
         <root url="file://$USER_HOME$/.rvm/rubies/ruby-3.2.2/lib/ruby/gems/3.2.0/gems/rubygems-bundler-1.4.5/test" />
       </excluded>
     </library>
+    <library name="rubygems-update (v3.5.10, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Jim Weirich&quot;.freeze, &quot;Chad Fowler&quot;.freeze, &quot;Eric Hodel&quot;.freeze, &quot;Luis Lavena&quot;.freeze, &quot;Aaron Patterson&quot;.freeze, &quot;Samuel Giddins&quot;.freeze, &quot;Andr\u00E9 Arko&quot;.freeze, &quot;Evan Phoenix&quot;.freeze, &quot;Hiroshi SHIBATA&quot;.freeze" />
+            <option name="email" value="&quot;&quot;.freeze, &quot;&quot;.freeze, &quot;drbrain@segment7.net&quot;.freeze, &quot;luislavena@gmail.com&quot;.freeze, &quot;aaron@tenderlovemaking.com&quot;.freeze, &quot;segiddins@segiddins.me&quot;.freeze, &quot;andre@arko.net&quot;.freeze, &quot;evan@phx.io&quot;.freeze, &quot;hsbt@ruby-lang.org&quot;.freeze" />
+            <option name="homepage" value="https://guides.rubygems.org" />
+            <option name="summary" value="RubyGems is a package management framework for Ruby. This gem is downloaded and installed by `gem update --system`, so that the `gem` CLI can update itself." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="rubygems-update" />
+        <option name="requirePaths">
+          <list>
+            <option value="hide_lib_for_update" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10" />
+        <option name="version" value="3.5.10" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/bundler" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/hide_lib_for_update" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/bundler" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/hide_lib_for_update" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/bundler" />
+      </excluded>
+    </library>
     <library name="rubyzip (v2.3.0, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -64123,6 +64193,60 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/sass-3.7.4/rails" />
       </excluded>
     </library>
+    <library name="sass (v3.7.4, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Natalie Weizenbaum&quot;.freeze, &quot;Chris Eppstein&quot;.freeze, &quot;Hampton Catlin&quot;.freeze" />
+            <option name="email" value="sass-lang@googlegroups.com" />
+            <option name="homepage" value="https://sass-lang.com/" />
+            <option name="summary" value="A powerful but elegant CSS compiler that makes CSS fun again." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="4.0.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="sass-listen" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="sass" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-3.7.4" />
+        <option name="version" value="3.7.4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-3.7.4/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-3.7.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-3.7.4/extra" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-3.7.4/rails" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-3.7.4/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-3.7.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-3.7.4/extra" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-3.7.4/rails" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-3.7.4/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-3.7.4/extra" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-3.7.4/rails" />
+      </excluded>
+    </library>
     <library name="sass-listen (v4.0.0, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -64184,6 +64308,69 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/sass-listen-4.0.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="sass-listen (v4.0.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Thibaud Guillaume-Gentil&quot;.freeze" />
+            <option name="email" value="thibaud@thibaud.gg" />
+            <option name="homepage" value="https://github.com/sass/listen" />
+            <option name="summary" value="Fork of guard/listen" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.9" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0.9.4" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="rb-fsevent" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.9" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0.9.7" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="rb-inotify" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="sass-listen" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-listen-4.0.0" />
+        <option name="version" value="4.0.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-listen-4.0.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sass-listen-4.0.0/lib" />
       </SOURCES>
     </library>
     <library name="sass-rails (v6.0.0, RVM: ruby-2.7.2) [gem]" type="rubylib">
