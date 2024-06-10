@@ -16169,6 +16169,38 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="benchmark-ips (v2.13.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Evan Phoenix&quot;.freeze" />
+            <option name="email" value="&quot;evan@phx.io&quot;.freeze" />
+            <option name="homepage" value="https://github.com/evanphx/benchmark-ips" />
+            <option name="summary" value="A iterations per second enhancement to Benchmark." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="benchmark-ips" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/benchmark-ips-2.13.0" />
+        <option name="version" value="2.13.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/benchmark-ips-2.13.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/benchmark-ips-2.13.0/examples" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/benchmark-ips-2.13.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/benchmark-ips-2.13.0/examples" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/benchmark-ips-2.13.0/examples" />
+      </excluded>
+    </library>
     <library name="better_errors (v0.0.1dev@3cb344, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -23250,6 +23282,47 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/date-3.3.4/ext" />
       </excluded>
     </library>
+    <library name="dead_end (v4.0.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;schneems&quot;.freeze" />
+            <option name="email" value="&quot;richard.schneeman+foo@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/zombocom/dead_end.git" />
+            <option name="summary" value="Find syntax errors in your source in a snap" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="dead_end" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0" />
+        <option name="version" value="4.0.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/.circleci" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/.circleci" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/dead_end-4.0.0/.circleci" />
+      </excluded>
+    </library>
     <library name="debug (v1.7.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -23805,6 +23878,241 @@
       <CLASSES />
       <JAVADOC />
       <SOURCES />
+    </library>
+    <library name="derailed (v0.1.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;schneems&quot;.freeze" />
+            <option name="email" value="&quot;richard.schneeman@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/schneems/derailed_benchmarks" />
+            <option name="summary" value="A shortcut for \&quot;derailed_benchmarks\&quot;" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="derailed_benchmarks" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="derailed" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed-0.1.0" />
+        <option name="version" value="0.1.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed-0.1.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed-0.1.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="derailed_benchmarks (v2.1.2, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Richard Schneeman&quot;.freeze" />
+            <option name="email" value="&quot;richard.schneeman+rubygems@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/zombocom/derailed_benchmarks" />
+            <option name="summary" value="Benchmarks designed to performance test your ENTIRE site" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="2" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="benchmark-ips" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0.3.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="mini_histogram" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="dead_end" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="memory_profiler" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0.19" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="thor" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="rack-test" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="get_process_mem" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="heapy" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="2.1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="ruby-statistics" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;" />
+                    <option name="version" value="10" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="14" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="rake" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="rack" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="derailed_benchmarks" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2" />
+        <option name="version" value="2.1.2" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/gemfiles" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/.circleci" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/gemfiles" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/.circleci" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/gemfiles" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/derailed_benchmarks-2.1.2/.circleci" />
+      </excluded>
     </library>
     <library name="devise (v4.8.0, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
@@ -26226,6 +26534,33 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ethon-0.16.0/.github" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ethon-0.16.0/profile" />
       </excluded>
+    </library>
+    <library name="event_stream_parser (v1.0.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Ates Goral&quot;.freeze" />
+            <option name="email" value="&quot;ates.goral@shopify.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/Shopify/event_stream_parser" />
+            <option name="summary" value="A spec-compliant event stream parser" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="event_stream_parser" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/event_stream_parser-1.0.0" />
+        <option name="version" value="1.0.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/event_stream_parser-1.0.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/event_stream_parser-1.0.0/lib" />
+      </SOURCES>
     </library>
     <library name="eventmachine (v1.0.9.1, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
@@ -31094,6 +31429,57 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/geocoder-1.8.0/examples" />
       </excluded>
     </library>
+    <library name="get_process_mem (v0.2.7, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Richard Schneeman&quot;.freeze" />
+            <option name="email" value="&quot;richard.schneeman+rubygems@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/schneems/get_process_mem" />
+            <option name="summary" value="Use GetProcessMem to find out the amount of RAM used by any process" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="ffi" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="get_process_mem" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/get_process_mem-0.2.7" />
+        <option name="version" value="0.2.7" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/get_process_mem-0.2.7/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/get_process_mem-0.2.7/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/get_process_mem-0.2.7/.github" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/get_process_mem-0.2.7/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/get_process_mem-0.2.7/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/get_process_mem-0.2.7/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/get_process_mem-0.2.7/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/get_process_mem-0.2.7/.github" />
+      </excluded>
+    </library>
     <library name="getoptlong (v0.1.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -32524,6 +32910,57 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/hashie-5.0.0/lib" />
       </SOURCES>
+    </library>
+    <library name="heapy (v0.2.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;schneems&quot;.freeze" />
+            <option name="email" value="&quot;richard.schneeman@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/schneems/heapy" />
+            <option name="summary" value="Inspects Ruby heap dumps" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="thor" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="heapy" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/heapy-0.2.0" />
+        <option name="version" value="0.2.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/heapy-0.2.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/heapy-0.2.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/heapy-0.2.0/.github" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/heapy-0.2.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/heapy-0.2.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/heapy-0.2.0/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/heapy-0.2.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/heapy-0.2.0/.github" />
+      </excluded>
     </library>
     <library name="heroics (v0.1.2, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
@@ -40323,6 +40760,38 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/memoist-0.16.2/script" />
       </excluded>
     </library>
+    <library name="memory_profiler (v1.0.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Sam Saffron&quot;.freeze" />
+            <option name="email" value="&quot;sam.saffron@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/SamSaffron/memory_profiler" />
+            <option name="summary" value="Memory profiling routines for Ruby 2.5+" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="memory_profiler" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/memory_profiler-1.0.1" />
+        <option name="version" value="1.0.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/memory_profiler-1.0.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/memory_profiler-1.0.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/memory_profiler-1.0.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/memory_profiler-1.0.1/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/memory_profiler-1.0.1/bin" />
+      </excluded>
+    </library>
     <library name="metainspector (v5.11.1, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -41093,6 +41562,41 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/mimemagic-0.3.10/ext" />
+      </excluded>
+    </library>
+    <library name="mini_histogram (v0.3.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;schneems&quot;.freeze" />
+            <option name="email" value="&quot;richard.schneeman+foo@gmail.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/zombocom/mini_histogram" />
+            <option name="summary" value="A small gem for building histograms out of Ruby arrays" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="mini_histogram" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/mini_histogram-0.3.1" />
+        <option name="version" value="0.3.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/mini_histogram-0.3.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/mini_histogram-0.3.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/mini_histogram-0.3.1/.github" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/mini_histogram-0.3.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/mini_histogram-0.3.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/mini_histogram-0.3.1/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/mini_histogram-0.3.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/mini_histogram-0.3.1/.github" />
       </excluded>
     </library>
     <library name="mini_magick (v4.11.0, RVM: ruby-2.7.2) [gem]" type="rubylib">
@@ -63288,6 +63792,91 @@
         <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/ruby-macho-2.5.1/lib" />
       </SOURCES>
     </library>
+    <library name="ruby-openai (v7.0.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Alex&quot;.freeze" />
+            <option name="email" value="&quot;alexrudall@users.noreply.github.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/alexrudall/ruby-openai" />
+            <option name="summary" value="OpenAI API + Ruby! \u{1F916}\u2764\uFE0F" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0.3.0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="2.0.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="event_stream_parser" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="faraday" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="faraday-multipart" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="ruby-openai" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1" />
+        <option name="version" value="7.0.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/.circleci" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/.devcontainer" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/.circleci" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/.devcontainer" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/.circleci" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-openai-7.0.1/.devcontainer" />
+      </excluded>
+    </library>
     <library name="ruby-progressbar (v1.11.0, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -63341,6 +63930,41 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-progressbar-1.13.0/lib" />
       </SOURCES>
+    </library>
+    <library name="ruby-statistics (v3.0.2, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;esteban zapata&quot;.freeze" />
+            <option name="email" value="&quot;estebanz01@outlook.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/estebanz01/ruby-statistics" />
+            <option name="summary" value="A ruby gem for som specific statistics. Inspired by the jStat js library." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="ruby-statistics" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-statistics-3.0.2" />
+        <option name="version" value="3.0.2" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-statistics-3.0.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-statistics-3.0.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-statistics-3.0.2/.github" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-statistics-3.0.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-statistics-3.0.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-statistics-3.0.2/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-statistics-3.0.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ruby-statistics-3.0.2/.github" />
+      </excluded>
     </library>
     <library name="ruby-vips (v2.1.2, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
