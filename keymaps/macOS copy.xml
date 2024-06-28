@@ -107,4 +107,8 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="XDebugger.MoveWatchDown" />
+  <action id="copilot.chat.show">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
 </keymap>
