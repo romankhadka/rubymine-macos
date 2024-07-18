@@ -34033,6 +34033,102 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/fog-xml-0.1.4/gemfiles" />
       </excluded>
     </library>
+    <library name="font-awesome-pro-sass (v6.5.2, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Font Awesome&quot;.freeze" />
+            <option name="email" value="&quot;hello@fontawesome.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/FortAwesome/font-awesome-pro-sass" />
+            <option name="summary" value="Font Awesome Pro SASS" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="sassc" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="font-awesome-pro-sass" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/font-awesome-pro-sass-6.5.2" />
+        <option name="version" value="6.5.2" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/font-awesome-pro-sass-6.5.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/font-awesome-pro-sass-6.5.2/assets" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/font-awesome-pro-sass-6.5.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/font-awesome-pro-sass-6.5.2/assets" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/font-awesome-pro-sass-6.5.2/assets" />
+      </excluded>
+    </library>
+    <library name="font-awesome-sass (v6.5.2, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Travis Chase&quot;.freeze" />
+            <option name="email" value="&quot;travis@fontawesome.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/FortAwesome/font-awesome-sass" />
+            <option name="summary" value="Font-Awesome SASS" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="sassc" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="font-awesome-sass" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/font-awesome-sass-6.5.2" />
+        <option name="version" value="6.5.2" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/font-awesome-sass-6.5.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/font-awesome-sass-6.5.2/assets" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/font-awesome-sass-6.5.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/font-awesome-sass-6.5.2/assets" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/font-awesome-sass-6.5.2/assets" />
+      </excluded>
+    </library>
     <library name="foreman (v0.88.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
