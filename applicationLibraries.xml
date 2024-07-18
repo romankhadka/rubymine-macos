@@ -18403,6 +18403,33 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/binding_of_caller-1.0.1/.github" />
       </excluded>
     </library>
+    <library name="blueprinter (v1.0.2, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Procore Technologies, Inc.&quot;.freeze" />
+            <option name="email" value="&quot;blueprinter@googlegroups.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/procore-oss/blueprinter" />
+            <option name="summary" value="Simple Fast Declarative Serialization Library" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="blueprinter" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/blueprinter-1.0.2" />
+        <option name="version" value="1.0.2" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/blueprinter-1.0.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/blueprinter-1.0.2/lib" />
+      </SOURCES>
+    </library>
     <library name="bootsnap (v1.11.1, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
