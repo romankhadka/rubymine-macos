@@ -53574,6 +53574,54 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/parallel-1.25.1/lib" />
       </SOURCES>
     </library>
+    <library name="parallel_tests (v4.7.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Michael Grosser&quot;.freeze" />
+            <option name="email" value="michael@grosser.it" />
+            <option name="homepage" value="https://github.com/grosser/parallel_tests" />
+            <option name="summary" value="Run Test::Unit / RSpec / Cucumber / Spinach in parallel" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="parallel" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="parallel_tests" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/parallel_tests-4.7.1" />
+        <option name="version" value="4.7.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/parallel_tests-4.7.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/parallel_tests-4.7.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/parallel_tests-4.7.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/parallel_tests-4.7.1/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/parallel_tests-4.7.1/bin" />
+      </excluded>
+    </library>
     <library name="paranoia (v2.6.0, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
