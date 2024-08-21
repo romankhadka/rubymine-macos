@@ -81155,6 +81155,40 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/terminal-table-3.0.2/examples" />
       </excluded>
     </library>
+    <library name="test-prof (v1.3.3.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Vladimir Dementyev&quot;.freeze" />
+            <option name="email" value="&quot;dementiev.vm@gmail.com&quot;.freeze" />
+            <option name="homepage" value="http://github.com/test-prof/test-prof" />
+            <option name="summary" value="Ruby applications tests profiling tools" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="test-prof" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/test-prof-1.3.3.1" />
+        <option name="version" value="1.3.3.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/test-prof-1.3.3.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/test-prof-1.3.3.1/assets" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/test-prof-1.3.3.1/config" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/test-prof-1.3.3.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/test-prof-1.3.3.1/assets" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/test-prof-1.3.3.1/config" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/test-prof-1.3.3.1/assets" />
+      </excluded>
+    </library>
     <library name="test-unit (v3.3.4, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
