@@ -24307,6 +24307,40 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/concurrent-ruby-1.3.3/lib" />
       </excluded>
     </library>
+    <library name="concurrent-ruby (v1.3.4, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Jerry D'Antonio&quot;.freeze, &quot;Petr Chalupa&quot;.freeze, &quot;The Ruby Concurrency Team&quot;.freeze" />
+            <option name="email" value="concurrent-ruby@googlegroups.com" />
+            <option name="homepage" value="http://www.concurrent-ruby.com" />
+            <option name="summary" value="Modern concurrency tools for Ruby. Inspired by Erlang, Clojure, Scala, Haskell, F#, C#, Java, and classic concurrency patterns." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="concurrent-ruby" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib/concurrent-ruby" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/concurrent-ruby-1.3.4" />
+        <option name="version" value="1.3.4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/concurrent-ruby-1.3.4/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/concurrent-ruby-1.3.4/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/concurrent-ruby-1.3.4/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/concurrent-ruby-1.3.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/concurrent-ruby-1.3.4/lib/concurrent-ruby" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/concurrent-ruby-1.3.4/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/concurrent-ruby-1.3.4/lib" />
+      </excluded>
+    </library>
     <library name="connection_pool (v2.2.5, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -24518,6 +24552,49 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/countries-5.7.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="countries (v6.0.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Josh Robinson&quot;.freeze, &quot;Joe Corcoran&quot;.freeze, &quot;Russell Osborne&quot;.freeze, &quot;Pedro Moreira&quot;.freeze" />
+            <option name="email" value="&quot;hexorx@gmail.com&quot;.freeze, &quot;russell@burningpony.com&quot;.freeze, &quot;pedro@codecreations.tech&quot;.freeze" />
+            <option name="homepage" value="https://github.com/countries/countries" />
+            <option name="summary" value="Gives you a country object full of all sorts of useful information." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.3" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="unaccent" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="countries" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/countries-6.0.1" />
+        <option name="version" value="6.0.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/countries-6.0.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/countries-6.0.1/lib" />
       </SOURCES>
     </library>
     <library name="crack (v0.4.5, RVM: ruby-2.7.2) [gem]" type="rubylib">
@@ -40234,6 +40311,75 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.13.2/man" />
       </excluded>
     </library>
+    <library name="irb (v1.14.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;aycabta&quot;.freeze, &quot;Keiju ISHITSUKA&quot;.freeze" />
+            <option name="email" value="&quot;aycabta@gmail.com&quot;.freeze, &quot;keiju@ruby-lang.org&quot;.freeze" />
+            <option name="homepage" value="https://github.com/ruby/irb" />
+            <option name="summary" value="Interactive Ruby command-line tool for REPL (Read Eval Print Loop)." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0.4.2" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="reline" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="4.0.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="rdoc" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="irb" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0" />
+        <option name="version" value="1.14.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/doc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/man" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/doc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/man" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/doc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/irb-1.14.0/man" />
+      </excluded>
+    </library>
     <library name="irb (v1.2.6, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -47953,6 +48099,38 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/minitest-5.24.0/test" />
       </excluded>
     </library>
+    <library name="minitest (v5.25.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Ryan Davis&quot;.freeze" />
+            <option name="email" value="&quot;ryand-ruby@zenspider.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/minitest/minitest" />
+            <option name="summary" value="minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="minitest" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/minitest-5.25.1" />
+        <option name="version" value="5.25.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/minitest-5.25.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/minitest-5.25.1/test" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/minitest-5.25.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/minitest-5.25.1/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/minitest-5.25.1/test" />
+      </excluded>
+    </library>
     <library name="mobility (v1.3.0.rc2, RVM: ruby-3.2.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -52230,6 +52408,60 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.6-arm64-darwin/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.6-arm64-darwin/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.6-arm64-darwin/gumbo-parser" />
+      </excluded>
+    </library>
+    <library name="nokogiri (v1.16.7, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Mike Dalessio&quot;.freeze, &quot;Aaron Patterson&quot;.freeze, &quot;Yoko Harada&quot;.freeze, &quot;Akinori MUSHA&quot;.freeze, &quot;John Shahid&quot;.freeze, &quot;Karol Bucek&quot;.freeze, &quot;Sam Ruby&quot;.freeze, &quot;Craig Barnes&quot;.freeze, &quot;Stephen Checkoway&quot;.freeze, &quot;Lars Kanis&quot;.freeze, &quot;Sergio Arbeo&quot;.freeze, &quot;Timothy Elliott&quot;.freeze, &quot;Nobuyoshi Nakada&quot;.freeze" />
+            <option name="email" value="nokogiri-talk@googlegroups.com" />
+            <option name="homepage" value="https://nokogiri.org" />
+            <option name="summary" value="Nokogiri (\u92F8) makes it easy and painless to work with XML and HTML from Ruby." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.4" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="racc" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="nokogiri" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.7-arm64-darwin" />
+        <option name="version" value="1.16.7" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.7-arm64-darwin/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.7-arm64-darwin/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.7-arm64-darwin/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.7-arm64-darwin/gumbo-parser" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.7-arm64-darwin/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.7-arm64-darwin/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.7-arm64-darwin/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.7-arm64-darwin/gumbo-parser" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.7-arm64-darwin/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.7-arm64-darwin/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/nokogiri-1.16.7-arm64-darwin/gumbo-parser" />
       </excluded>
     </library>
     <library name="noticed (v1.6.3, RVM: ruby-2.7.2) [gem]" type="rubylib">
@@ -59120,6 +59352,44 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.0/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.0/doc" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.0/ext" />
+      </excluded>
+    </library>
+    <library name="racc (v1.8.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Minero Aoki&quot;.freeze, &quot;Aaron Patterson&quot;.freeze" />
+            <option name="email" value="nil, &quot;aaron@tenderlovemaking.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/ruby/racc" />
+            <option name="summary" value="Racc is an LALR(1) parser generator" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="racc" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.1" />
+        <option name="version" value="1.8.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.1/doc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.1/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.1/doc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.1/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.1/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.1/doc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/racc-1.8.1/ext" />
       </excluded>
     </library>
     <library name="rack (v1.6.13, RVM: ruby-2.7.2) [gem]" type="rubylib">
@@ -75697,6 +75967,68 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-rails-5.17.3/bin" />
       </excluded>
     </library>
+    <library name="sentry-rails (v5.19.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Sentry Team&quot;.freeze" />
+            <option name="email" value="accounts@sentry.io" />
+            <option name="homepage" value="https://github.com/getsentry/sentry-ruby/tree/5.19.0/sentry-rails" />
+            <option name="summary" value="A gem that provides Rails integration for the Sentry error logger" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="5.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="railties" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="5.19.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="sentry-ruby" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="sentry-rails" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-rails-5.19.0" />
+        <option name="version" value="5.19.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-rails-5.19.0/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-rails-5.19.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-rails-5.19.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-rails-5.19.0/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-rails-5.19.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-rails-5.19.0/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-rails-5.19.0/bin" />
+      </excluded>
+    </library>
     <library name="sentry-rails (v5.2.1, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -75887,6 +76219,70 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-ruby-5.17.3/bin" />
       </excluded>
     </library>
+    <library name="sentry-ruby (v5.19.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Sentry Team&quot;.freeze" />
+            <option name="email" value="accounts@sentry.io" />
+            <option name="homepage" value="https://github.com/getsentry/sentry-ruby/tree/5.19.0/sentry-ruby" />
+            <option name="summary" value="A gem that provides a client interface for the Sentry error logger" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.0.2" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="concurrent-ruby" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="bigdecimal" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="sentry-ruby" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-ruby-5.19.0" />
+        <option name="version" value="5.19.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-ruby-5.19.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-ruby-5.19.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-ruby-5.19.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-ruby-5.19.0/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-ruby-5.19.0/bin" />
+      </excluded>
+    </library>
     <library name="sentry-ruby (v5.2.1, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -75988,6 +76384,69 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/sentry-ruby-core-5.2.1/bin" />
+      </excluded>
+    </library>
+    <library name="sentry-sidekiq (v5.19.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Sentry Team&quot;.freeze" />
+            <option name="email" value="accounts@sentry.io" />
+            <option name="homepage" value="https://github.com/getsentry/sentry-ruby/tree/5.19.0/sentry-sidekiq" />
+            <option name="summary" value="A gem that provides Sidekiq integration for the Sentry error logger" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="5.19.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="sentry-ruby" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="3.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="sidekiq" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="sentry-sidekiq" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-sidekiq-5.19.0" />
+        <option name="version" value="5.19.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-sidekiq-5.19.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-sidekiq-5.19.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-sidekiq-5.19.0/example" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-sidekiq-5.19.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-sidekiq-5.19.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-sidekiq-5.19.0/example" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-sidekiq-5.19.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/sentry-sidekiq-5.19.0/example" />
       </excluded>
     </library>
     <library name="set (v1.0.3, RVM: ruby-3.2.2) [gem]" type="rubylib">
@@ -80311,6 +80770,49 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/ssrf_filter-1.1.2/lib" />
       </SOURCES>
+    </library>
+    <library name="stackprof (v0.2.26, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="N/A" />
+            <option name="email" value="aman@tmm1.net" />
+            <option name="homepage" value="http://github.com/tmm1/stackprof" />
+            <option name="summary" value="sampling callstack-profiler for ruby 2.2+" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="stackprof" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26" />
+        <option name="version" value="0.2.26" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/vendor" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/.github" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/vendor" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/stackprof-0.2.26/.github" />
+      </excluded>
     </library>
     <library name="stimulus-rails (v1.2.1, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
@@ -87349,6 +87851,33 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/zeitwerk-2.6.16/lib" />
+      </SOURCES>
+    </library>
+    <library name="zeitwerk (v2.6.17, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Xavier Noria&quot;.freeze" />
+            <option name="email" value="fxn@hashref.com" />
+            <option name="homepage" value="https://github.com/fxn/zeitwerk" />
+            <option name="summary" value="Efficient and thread-safe constant autoloader" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="zeitwerk" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/zeitwerk-2.6.17" />
+        <option name="version" value="2.6.17" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/zeitwerk-2.6.17/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/zeitwerk-2.6.17/lib" />
       </SOURCES>
     </library>
     <library name="zeitwerk (v2.6.4, RVM: ruby-2.7.2) [gem]" type="rubylib">
