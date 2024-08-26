@@ -19272,6 +19272,38 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/bundler/exe" />
       </excluded>
     </library>
+    <library name="bundler (v2.5.18, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="André Arko, Samuel Giddins, Colby Swandale, Hiroshi Shibata, David Rodríguez, Grey Baker, Stephanie Morillo, Chris Morris, James Wen, Tim Moore, André Medeiros, Jessica Lynn Suttles, Terence Lee, Carl Lerche, Yehuda Katz" />
+            <option name="email" value="team@bundler.io" />
+            <option name="homepage" value="https://bundler.io" />
+            <option name="summary" value="The best way to manage your application's dependencies" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="bundler" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/bundler" />
+        <option name="version" value="2.5.18" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/bundler/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/bundler/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/bundler/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/bundler/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/bundler/exe" />
+      </excluded>
+    </library>
     <library name="bundler-unload (v1.0.2, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -43963,6 +43995,41 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/launchy-rails-0.0.1/lib" />
       </SOURCES>
+    </library>
+    <library name="lefthook (v1.7.14, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;A.A.Abroskin&quot;.freeze, &quot;Evil Martians&quot;.freeze" />
+            <option name="email" value="&quot;lefthook@evilmartians.com&quot;.freeze" />
+            <option name="homepage" value="https://github.com/evilmartians/lefthook" />
+            <option name="summary" value="A single dependency-free binary to manage all your git hooks that works with any language in any environment, and in all common team workflows." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="lefthook" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14" />
+        <option name="version" value="1.7.14" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/libexec" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/libexec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/libexec" />
+      </excluded>
     </library>
     <library name="link_thumbnailer (v3.4.0, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
@@ -74052,6 +74119,44 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/exe" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.10/bundler" />
+      </excluded>
+    </library>
+    <library name="rubygems-update (v3.5.18, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="Jim Weirich, Chad Fowler, Eric Hodel, Luis Lavena, Aaron Patterson, Samuel Giddins, André Arko, Evan Phoenix, Hiroshi SHIBATA" />
+            <option name="email" value=", , drbrain@segment7.net, luislavena@gmail.com, aaron@tenderlovemaking.com, segiddins@segiddins.me, andre@arko.net, evan@phx.io, hsbt@ruby-lang.org" />
+            <option name="homepage" value="https://guides.rubygems.org" />
+            <option name="summary" value="RubyGems is a package management framework for Ruby. This gem is downloaded and installed by `gem update --system`, so that the `gem` CLI can update itself." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="rubygems-update" />
+        <option name="requirePaths">
+          <list>
+            <option value="hide_lib_for_update" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18" />
+        <option name="version" value="3.5.18" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/bundler" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/hide_lib_for_update" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/bundler" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/hide_lib_for_update" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/rubygems-update-3.5.18/bundler" />
       </excluded>
     </library>
     <library name="rubyzip (v2.3.0, RVM: ruby-2.7.2) [gem]" type="rubylib">
