@@ -43996,41 +43996,6 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/launchy-rails-0.0.1/lib" />
       </SOURCES>
     </library>
-    <library name="lefthook (v1.7.14, RVM: ruby-3.2.2) [gem]" type="rubylib">
-      <properties>
-        <option name="additionalInfo">
-          <AdditionalInfo>
-            <option name="authors" value="&quot;A.A.Abroskin&quot;.freeze, &quot;Evil Martians&quot;.freeze" />
-            <option name="email" value="&quot;lefthook@evilmartians.com&quot;.freeze" />
-            <option name="homepage" value="https://github.com/evilmartians/lefthook" />
-            <option name="summary" value="A single dependency-free binary to manage all your git hooks that works with any language in any environment, and in all common team workflows." />
-          </AdditionalInfo>
-        </option>
-        <option name="name" value="lefthook" />
-        <option name="requirePaths">
-          <list>
-            <option value="lib" />
-          </list>
-        </option>
-        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14" />
-        <option name="version" value="1.7.14" />
-      </properties>
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/lib" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/libexec" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/lib" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/libexec" />
-      </SOURCES>
-      <excluded>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/lefthook-1.7.14/libexec" />
-      </excluded>
-    </library>
     <library name="link_thumbnailer (v3.4.0, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
