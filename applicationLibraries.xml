@@ -15667,6 +15667,422 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/ast-2.4.2/lib" />
       </SOURCES>
     </library>
+    <library name="async (v2.16.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Bruno Sutic&quot;.freeze, &quot;Jeremy Jung&quot;.freeze, &quot;Olle Jonsson&quot;.freeze, &quot;Devin Christensen&quot;.freeze, &quot;Patrik Wenger&quot;.freeze, &quot;Emil Tin&quot;.freeze, &quot;Jamie McCarthy&quot;.freeze, &quot;Kent Gruber&quot;.freeze, &quot;Brian Morearty&quot;.freeze, &quot;Colin Kelley&quot;.freeze, &quot;Dimitar Peychinov&quot;.freeze, &quot;Gert Goet&quot;.freeze, &quot;Jiang Jinyang&quot;.freeze, &quot;Julien Portalier&quot;.freeze, &quot;Jun Jiang&quot;.freeze, &quot;Ken Muryoi&quot;.freeze, &quot;Leon L\u00F6chner&quot;.freeze, &quot;Masafumi Okura&quot;.freeze, &quot;Masayuki Yamamoto&quot;.freeze, &quot;Math Ieu&quot;.freeze, &quot;Ryan Musgrave&quot;.freeze, &quot;Salim Semaoune&quot;.freeze, &quot;Shannon Skipper&quot;.freeze, &quot;Sokolov Yura&quot;.freeze, &quot;Stefan Wrobel&quot;.freeze, &quot;Trevor Turk&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/async" />
+            <option name="summary" value="A concurrency framework for Ruby." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.26" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="console" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="fiber-annotation" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.6" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.6.5" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="io-event" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="async" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-2.16.1" />
+        <option name="version" value="2.16.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-2.16.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-2.16.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="async-container (v0.18.2, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Olle Jonsson&quot;.freeze, &quot;Anton Sozontov&quot;.freeze, &quot;Juan Antonio Mart\u00EDn Lucas&quot;.freeze, &quot;Yuji Yaginuma&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/async-container" />
+            <option name="summary" value="Abstract container-based parallelism using threads and processes where appropriate." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="2.10" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="async" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="async-container" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-container-0.18.2" />
+        <option name="version" value="0.18.2" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-container-0.18.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-container-0.18.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="async-http (v0.72.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Brian Morearty&quot;.freeze, &quot;Bruno Sutic&quot;.freeze, &quot;Janko Marohni\u0107&quot;.freeze, &quot;Thomas Morgan&quot;.freeze, &quot;Adam Daniels&quot;.freeze, &quot;Igor Sidorov&quot;.freeze, &quot;Anton Zhuravsky&quot;.freeze, &quot;Cyril Roelandt&quot;.freeze, &quot;Denis Talakevich&quot;.freeze, &quot;Hal Brodigan&quot;.freeze, &quot;Ian Ker-Seymer&quot;.freeze, &quot;Josh Huber&quot;.freeze, &quot;Marco Concetto Rudilosso&quot;.freeze, &quot;Olle Jonsson&quot;.freeze, &quot;Orgad Shaneh&quot;.freeze, &quot;Sam Shadwell&quot;.freeze, &quot;Stefan Wrobel&quot;.freeze, &quot;Tim Meusel&quot;.freeze, &quot;Trevor Turk&quot;.freeze, &quot;Viacheslav Koval&quot;.freeze, &quot;dependabot[bot]&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/async-http" />
+            <option name="summary" value="A HTTP client and server library." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="2.10.2" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="async" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.7" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="async-pool" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.11" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="io-endpoint" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.4" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="io-stream" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.29" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="protocol-http" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.20" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="protocol-http1" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.18" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="protocol-http2" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0.10" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="traces" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="async-http" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-http-0.72.0" />
+        <option name="version" value="0.72.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-http-0.72.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-http-0.72.0/bake" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-http-0.72.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-http-0.72.0/bake" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-http-0.72.0/bake" />
+      </excluded>
+    </library>
+    <library name="async-http-cache (v0.4.4, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Colin Kelley&quot;.freeze, &quot;Olle Jonsson&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/async-http-cache" />
+            <option name="summary" value="Standard-compliant cache for async-http." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.56" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="async-http" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="async-http-cache" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-http-cache-0.4.4" />
+        <option name="version" value="0.4.4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-http-cache-0.4.4/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-http-cache-0.4.4/lib" />
+      </SOURCES>
+    </library>
+    <library name="async-pool (v0.8.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Olle Jonsson&quot;.freeze, &quot;Simon Perepelitsa&quot;.freeze, &quot;Thomas Morgan&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/async-pool" />
+            <option name="summary" value="A singleplex and multiplex resource pool for implementing robust clients." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.25" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="async" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="metrics" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="traces" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="async-pool" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-pool-0.8.1" />
+        <option name="version" value="0.8.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-pool-0.8.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-pool-0.8.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="async-service (v0.12.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/async-service" />
+            <option name="summary" value="A service layer for Async." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="async" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.16" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="async-container" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="async-service" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-service-0.12.0" />
+        <option name="version" value="0.12.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-service-0.12.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-service-0.12.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-service-0.12.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-service-0.12.0/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/async-service-0.12.0/bin" />
+      </excluded>
+    </library>
     <library name="atomos (v0.1.3, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -24462,6 +24878,78 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/connection_pool-2.4.1/lib" />
       </SOURCES>
     </library>
+    <library name="console (v1.27.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Robert Schulze&quot;.freeze, &quot;Bryan Powell&quot;.freeze, &quot;Michael Adams&quot;.freeze, &quot;Anton Sozontov&quot;.freeze, &quot;Cyril Roelandt&quot;.freeze, &quot;C\u00E9dric Boutillier&quot;.freeze, &quot;Felix Yan&quot;.freeze, &quot;Olle Jonsson&quot;.freeze, &quot;Patrik Wenger&quot;.freeze, &quot;William T. Nelson&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://socketry.github.io/console" />
+            <option name="summary" value="Beautiful logging for Ruby." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="fiber-annotation" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="fiber-local" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="json" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="console" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/console-1.27.0" />
+        <option name="version" value="1.27.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/console-1.27.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/console-1.27.0/bake" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/console-1.27.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/console-1.27.0/bake" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/console-1.27.0/bake" />
+      </excluded>
+    </library>
     <library name="content_disposition (v1.0.0, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -30326,6 +30814,181 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/faker-3.4.1/bin" />
       </excluded>
     </library>
+    <library name="falcon (v0.47.10, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Janko Marohni\u0107&quot;.freeze, &quot;Bryan Powell&quot;.freeze, &quot;Trevor Turk&quot;.freeze, &quot;Claudiu Garba&quot;.freeze, &quot;Kyle Tam&quot;.freeze, &quot;Mitsutaka Mimura&quot;.freeze, &quot;Peter Schrammel&quot;.freeze, &quot;Sho Ito&quot;.freeze, &quot;Adam Daniels&quot;.freeze, &quot;Colby Swandale&quot;.freeze, &quot;Daniel Evans&quot;.freeze, &quot;Kent Gruber&quot;.freeze, &quot;Michael Adams&quot;.freeze, &quot;Mikel Kew&quot;.freeze, &quot;Nick Janetakis&quot;.freeze, &quot;Olle Jonsson&quot;.freeze, &quot;Santiago Bartesaghi&quot;.freeze, &quot;Sh Lin&quot;.freeze, &quot;Stefan Buhrmester&quot;.freeze, &quot;Tad Thorley&quot;.freeze, &quot;Tasos Latsas&quot;.freeze, &quot;dependabot[bot]&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/falcon" />
+            <option name="summary" value="A fast, asynchronous, rack-compatible web server." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="async" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.18" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="async-container" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.66" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0.66.3" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="async-http" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.4.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="async-http-cache" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.10" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="async-service" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="bundler" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="localhost" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="3.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="openssl" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.2.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="process-metrics" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.5" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="protocol-rack" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="2.3" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="samovar" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="falcon" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/falcon-0.47.10" />
+        <option name="version" value="0.47.10" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/falcon-0.47.10/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/falcon-0.47.10/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/falcon-0.47.10/bake" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/falcon-0.47.10/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/falcon-0.47.10/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/falcon-0.47.10/bake" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/falcon-0.47.10/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/falcon-0.47.10/bake" />
+      </excluded>
+    </library>
     <library name="faraday (v1.1.0, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -32409,6 +33072,103 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/ffi-compiler-1.0.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="fiber-annotation (v0.2.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/ioquatix/fiber-annotation" />
+            <option name="summary" value="A mechanism for annotating fibers." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="fiber-annotation" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/fiber-annotation-0.2.0" />
+        <option name="version" value="0.2.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/fiber-annotation-0.2.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/fiber-annotation-0.2.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="fiber-local (v1.1.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/fiber-local" />
+            <option name="summary" value="Provides a class-level mixin to make fiber local state easy." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="fiber-storage" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="fiber-local" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/fiber-local-1.1.0" />
+        <option name="version" value="1.1.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/fiber-local-1.1.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/fiber-local-1.1.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="fiber-storage (v1.0.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/ioquatix/fiber-storage" />
+            <option name="summary" value="Provides a compatibility shim for fiber storage." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="fiber-storage" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/fiber-storage-1.0.0" />
+        <option name="version" value="1.0.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/fiber-storage-1.0.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/fiber-storage-1.0.0/lib" />
       </SOURCES>
     </library>
     <library name="fiddle (v1.0.0, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
@@ -40173,6 +40933,92 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-console-0.7.2/ext" />
       </excluded>
     </library>
+    <library name="io-endpoint (v0.13.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/io-endpoint" />
+            <option name="summary" value="Provides a separation of concerns interface for IO endpoints." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="io-endpoint" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-endpoint-0.13.1" />
+        <option name="version" value="0.13.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-endpoint-0.13.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-endpoint-0.13.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="io-event (v1.6.5, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Math Ieu&quot;.freeze, &quot;Wander Hillen&quot;.freeze, &quot;Benoit Daloze&quot;.freeze, &quot;Bruno Sutic&quot;.freeze, &quot;Alex Matchneer&quot;.freeze, &quot;Delton Ding&quot;.freeze, &quot;Pavel Rosick\u00FD&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/io-event" />
+            <option name="summary" value="An event loop." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="io-event" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-event-1.6.5" />
+        <option name="version" value="1.6.5" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-event-1.6.5/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-event-1.6.5/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-event-1.6.5/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-event-1.6.5/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-event-1.6.5/ext" />
+      </excluded>
+    </library>
+    <library name="io-stream (v0.4.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/io-stream" />
+            <option name="summary" value="Provides a generic stream wrapper for IO instances." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="io-stream" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-stream-0.4.0" />
+        <option name="version" value="0.4.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-stream-0.4.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/io-stream-0.4.0/lib" />
+      </SOURCES>
+    </library>
     <library name="ipaddress (v0.8.3, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -44916,6 +45762,33 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/llhttp-ffi-0.4.0/ext" />
       </excluded>
     </library>
+    <library name="localhost (v1.3.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Olle Jonsson&quot;.freeze, &quot;Ye Lin Aung&quot;.freeze, &quot;Akshay Birajdar&quot;.freeze, &quot;Antonio Terceiro&quot;.freeze, &quot;Colin Shea&quot;.freeze, &quot;Gabriel Sobrinho&quot;.freeze, &quot;Juri Hahn&quot;.freeze, &quot;Richard S. Leung&quot;.freeze, &quot;Yuuji Yaginuma&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/localhost" />
+            <option name="summary" value="Manage a local certificate authority for self-signed localhost development servers." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="localhost" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/localhost-1.3.1" />
+        <option name="version" value="1.3.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/localhost-1.3.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/localhost-1.3.1/lib" />
+      </SOURCES>
+    </library>
     <library name="lockbox (v0.6.6, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -46111,6 +46984,33 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/mailcatcher-0.8.2/public" />
       </excluded>
     </library>
+    <library name="mapping (v1.1.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze" />
+            <option name="email" value="&quot;samuel.williams@oriontransfer.co.nz&quot;.freeze" />
+            <option name="homepage" value="https://github.com/ioquatix/mapping" />
+            <option name="summary" value="Map an input model to an output model using a mapping model." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="mapping" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/mapping-1.1.1" />
+        <option name="version" value="1.1.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/mapping-1.1.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/mapping-1.1.1/lib" />
+      </SOURCES>
+    </library>
     <library name="marcel (v1.0.1, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -46985,6 +47885,38 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/method_source-1.1.0/spec" />
+      </excluded>
+    </library>
+    <library name="metrics (v0.10.2, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/metrics" />
+            <option name="summary" value="Application metrics and instrumentation." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="metrics" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/metrics-0.10.2" />
+        <option name="version" value="0.10.2" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/metrics-0.10.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/metrics-0.10.2/bake" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/metrics-0.10.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/metrics-0.10.2/bake" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/metrics-0.10.2/bake" />
       </excluded>
     </library>
     <library name="mime-types (v3.3.1, RVM: ruby-2.7.2) [gem]" type="rubylib">
@@ -56606,6 +57538,66 @@
         <root url="file://$USER_HOME$/.rvm/rubies/ruby-3.2.2/lib/ruby/gems/3.2.0/gems/prime-0.1.2/bin" />
       </excluded>
     </library>
+    <library name="process-metrics (v0.2.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze" />
+            <option name="email" value="&quot;samuel.williams@oriontransfer.co.nz&quot;.freeze" />
+            <option name="homepage" value="https://github.com/socketry/process-metrics" />
+            <option name="summary" value="Provide detailed OS-specific process metrics." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.8" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="console" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="2.1" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="samovar" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="process-metrics" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/process-metrics-0.2.1" />
+        <option name="version" value="0.2.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/process-metrics-0.2.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/process-metrics-0.2.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/process-metrics-0.2.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/process-metrics-0.2.1/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/process-metrics-0.2.1/bin" />
+      </excluded>
+    </library>
     <library name="progress_bar (v1.3.3, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -57335,6 +58327,218 @@
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/pronto-rubocop-0.11.1/.github" />
       </excluded>
+    </library>
+    <library name="protocol-hpack (v1.5.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Ilya Grigorik&quot;.freeze, &quot;Tamir Duberstein&quot;.freeze, &quot;Nathan Froyd&quot;.freeze, &quot;Kaoru Maeda&quot;.freeze, &quot;Tiago Cardoso&quot;.freeze, &quot;Byron Formwalt&quot;.freeze, &quot;Cyril Roelandt&quot;.freeze, &quot;Daniel Morrison&quot;.freeze, &quot;Felix Yan&quot;.freeze, &quot;George Ulmer&quot;.freeze, &quot;Jingyi Chen&quot;.freeze, &quot;Justin Mazzocchi&quot;.freeze, &quot;Kenichi Nakamura&quot;.freeze, &quot;Kien Nguyen Trung&quot;.freeze, &quot;Maruth Goyal&quot;.freeze, &quot;Olle Jonsson&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/http-hpack" />
+            <option name="summary" value="A compresssor and decompressor for HTTP/2's HPACK format." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="protocol-hpack" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-hpack-1.5.0" />
+        <option name="version" value="1.5.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-hpack-1.5.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-hpack-1.5.0/tasks" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-hpack-1.5.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-hpack-1.5.0/tasks" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-hpack-1.5.0/tasks" />
+      </excluded>
+    </library>
+    <library name="protocol-http (v0.29.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Thomas Morgan&quot;.freeze, &quot;Bruno Sutic&quot;.freeze, &quot;Herrick Fang&quot;.freeze, &quot;Bryan Powell&quot;.freeze, &quot;Dan Olson&quot;.freeze, &quot;Earlopain&quot;.freeze, &quot;Genki Takiuchi&quot;.freeze, &quot;Marcelo Junior&quot;.freeze, &quot;Olle Jonsson&quot;.freeze, &quot;Yuta Iwama&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/protocol-http" />
+            <option name="summary" value="Provides abstractions to handle HTTP protocols." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="protocol-http" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-http-0.29.0" />
+        <option name="version" value="0.29.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-http-0.29.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-http-0.29.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="protocol-http1 (v0.20.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Thomas Morgan&quot;.freeze, &quot;Anton Zhuravsky&quot;.freeze, &quot;Brian Morearty&quot;.freeze, &quot;Bruno Sutic&quot;.freeze, &quot;Olle Jonsson&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/protocol-http1" />
+            <option name="summary" value="A low level implementation of the HTTP/1 protocol." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.22" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="protocol-http" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="protocol-http1" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-http1-0.20.0" />
+        <option name="version" value="0.20.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-http1-0.20.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-http1-0.20.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="protocol-http2 (v0.18.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Yuta Iwama&quot;.freeze, &quot;Marco Concetto Rudilosso&quot;.freeze, &quot;Olle Jonsson&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/protocol-http2" />
+            <option name="summary" value="A low level implementation of the HTTP/2 protocol." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.4" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="protocol-hpack" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.18" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="protocol-http" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="protocol-http2" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-http2-0.18.0" />
+        <option name="version" value="0.18.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-http2-0.18.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-http2-0.18.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="protocol-rack (v0.6.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Genki Takiuchi&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/protocol-rack" />
+            <option name="summary" value="An implementation of the Rack protocol/specification." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="0.23" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="protocol-http" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="rack" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="protocol-rack" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-rack-0.6.0" />
+        <option name="version" value="0.6.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-rack-0.6.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/protocol-rack-0.6.0/lib" />
+      </SOURCES>
     </library>
     <library name="pry (v0.14.1, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
@@ -74383,6 +75587,61 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/rvm-capistrano-1.5.0/spec" />
       </excluded>
     </library>
+    <library name="samovar (v2.3.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Gabriel Mazetto&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/ioquatix/samovar" />
+            <option name="summary" value="Samovar is a flexible option parser excellent support for sub-commands and help documentation." />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="console" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="mapping" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="samovar" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/samovar-2.3.0" />
+        <option name="version" value="2.3.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/samovar-2.3.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/samovar-2.3.0/lib" />
+      </SOURCES>
+    </library>
     <library name="sass (v3.7.4, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -82802,6 +84061,33 @@
       <CLASSES />
       <JAVADOC />
       <SOURCES />
+    </library>
+    <library name="traces (v0.13.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Samuel Williams&quot;.freeze, &quot;Felix Yan&quot;.freeze" />
+            <option name="email" value="N/A" />
+            <option name="homepage" value="https://github.com/socketry/traces" />
+            <option name="summary" value="Application instrumentation and tracing." />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="traces" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/traces-0.13.1" />
+        <option name="version" value="0.13.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/traces-0.13.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/traces-0.13.1/lib" />
+      </SOURCES>
     </library>
     <library name="trailblazer-option (v0.1.2, RVM: ruby-3.2.2) [gem]" type="rubylib">
       <properties>
