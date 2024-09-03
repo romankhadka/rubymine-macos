@@ -30972,6 +30972,47 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/fog-xml-0.1.4/gemfiles" />
       </excluded>
     </library>
+    <library name="foreman (v0.88.1, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;David Dollar&quot;.freeze" />
+            <option name="email" value="ddollar@gmail.com" />
+            <option name="homepage" value="https://github.com/ddollar/foreman" />
+            <option name="summary" value="Process manager for applications with multiple components" />
+          </AdditionalInfo>
+        </option>
+        <option name="name" value="foreman" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1" />
+        <option name="version" value="0.88.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/man" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/data" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/spec" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/man" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/data" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/man" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/data" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/foreman-0.88.1/spec" />
+      </excluded>
+    </library>
     <library name="formatador (v0.2.5, RVM: ruby-2.7.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
