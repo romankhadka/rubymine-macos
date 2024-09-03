@@ -33106,6 +33106,66 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/google-protobuf-3.25.4-arm64-darwin/ext" />
       </excluded>
     </library>
+    <library name="google-protobuf (v4.27.3, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;Protobuf Authors&quot;.freeze" />
+            <option name="email" value="protobuf@googlegroups.com" />
+            <option name="homepage" value="https://developers.google.com/protocol-buffers" />
+            <option name="summary" value="Protocol Buffers" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="bigdecimal" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="13" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="rake" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="google-protobuf" />
+        <option name="requirePaths">
+          <list>
+            <option value="lib" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/google-protobuf-4.27.3-arm64-darwin" />
+        <option name="version" value="4.27.3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/google-protobuf-4.27.3-arm64-darwin/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/google-protobuf-4.27.3-arm64-darwin/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/google-protobuf-4.27.3-arm64-darwin/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/google-protobuf-4.27.3-arm64-darwin/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/google-protobuf-4.27.3-arm64-darwin/ext" />
+      </excluded>
+    </library>
     <library name="google-protobuf (v4.28.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
       <properties>
         <option name="additionalInfo">
@@ -33884,6 +33944,76 @@
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/grpc-1.38.0-universal-darwin/etc" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2/gems/grpc-1.38.0-universal-darwin/src" />
+      </excluded>
+    </library>
+    <library name="grpc (v1.65.2, RVM: ruby-3.2.2) [gem]" type="rubylib">
+      <properties>
+        <option name="additionalInfo">
+          <AdditionalInfo>
+            <option name="authors" value="&quot;gRPC Authors&quot;.freeze" />
+            <option name="email" value="grpc-io@googlegroups.com" />
+            <option name="homepage" value="https://github.com/google/grpc/tree/master/src/ruby" />
+            <option name="summary" value="GRPC system in Ruby" />
+          </AdditionalInfo>
+        </option>
+        <option name="dependencies">
+          <list>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="&gt;=" />
+                    <option name="version" value="3.25" />
+                  </Bound>
+                  <Bound>
+                    <option name="operator" value="&lt;" />
+                    <option name="version" value="5.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="google-protobuf" />
+            </Dependency>
+            <Dependency>
+              <option name="bounds">
+                <list>
+                  <Bound>
+                    <option name="operator" value="~&gt;" />
+                    <option name="version" value="1.0" />
+                  </Bound>
+                </list>
+              </option>
+              <option name="doRequire" value="true" />
+              <option name="name" value="googleapis-common-protos-types" />
+            </Dependency>
+          </list>
+        </option>
+        <option name="name" value="grpc" />
+        <option name="requirePaths">
+          <list>
+            <option value="src/ruby/lib" />
+            <option value="src/ruby/bin" />
+            <option value="src/ruby/pb" />
+          </list>
+        </option>
+        <option name="url" value="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/grpc-1.65.2-arm64-darwin" />
+        <option name="version" value="1.65.2" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/grpc-1.65.2-arm64-darwin/etc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/grpc-1.65.2-arm64-darwin/src" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/grpc-1.65.2-arm64-darwin/etc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/grpc-1.65.2-arm64-darwin/src" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/grpc-1.65.2-arm64-darwin/src/ruby/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/grpc-1.65.2-arm64-darwin/src/ruby/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/grpc-1.65.2-arm64-darwin/src/ruby/pb" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/grpc-1.65.2-arm64-darwin/etc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-3.2.2/gems/grpc-1.65.2-arm64-darwin/src" />
       </excluded>
     </library>
     <library name="grpc (v1.66.0, RVM: ruby-3.2.2) [gem]" type="rubylib">
